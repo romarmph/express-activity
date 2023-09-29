@@ -14,22 +14,94 @@
     />
     <title>Alan Turing - Home</title>
   </head>
-  <body class="body static">
-    <div id="nav-icon" class="z-20">
+  <body class="body relative">
+    <div id="nav-icon" class="z-50">
       <span></span>
       <span></span>
       <span></span>
     </div>
     <nav
-      class="w-0 fixed z-10 left-0 top-0 overflow-x-hidden h-screen bg-gray-950"
+      class="w-0 fixed z-30 left-0 top-0 overflow-x-hidden h-screen bg-gray-950"
       id="nav-menu"
     >
       <div class="w-full h-full flex justify-stretch items-stretch">
-        <a href="#" class="nav-item home selected"> Home </a>
-        <a href="#" class="nav-item biography"> Biography </a>
-        <a href="#" class="nav-item legacy"> Legacy </a>
+        <a href="/" class="nav-item home selected"> Home </a>
+        <a href="biography" class="nav-item biography"> Biography </a>
+        <a href="legacy" class="nav-item legacy"> Legacy </a>
       </div>
     </nav>
+
+    <div class="flex items-stretch h-screen bg-slate-900">
+      <div class="grow">
+        <div class="relative w-full h-full">
+          <div class="absolute top-64 left-32 z-20">
+            <p class="text-white text-9xl font-serif">Alan</p>
+            <p class="text-white text-9xl font-serif ps-8">Turing</p>
+          </div>
+          <div class="absolute bottom-20 right-20">
+            <img src="/src/imgs/circles.svg" alt="circls" />
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <img
+          src="/src/imgs/alan-1.png"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+    <div class="flex items-stretch h-screen">
+      <div class="shrink-0">
+        <img
+          src="/src/imgs/alan-2.png"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+      </div>
+      <div class="grow flex justify-center items-center">
+        <div class="p-36">
+          <h2 class="text-white font-serif text-7xl">Who is Alan Turing?</h2>
+          <p class="text-white font-sans text-2xl font-light mt-6">
+            Alan Turing was a pioneering mathematician, logician, cryptanalyst,
+            and computer scientist. His groundbreaking work laid the foundation
+            for modern computing and artificial intelligence. This website is
+            dedicated to preserving the memory and celebrating the extraordinary
+            life of this visionary thinker.
+          </p>
+          <div class="qoutes flex items-center gap-8 mt-16">
+            <span class="w-0.5 bg-white h-24"></span>
+            <p class="text-white font-sans text-3xl font-extralight">
+              <i>
+                "We can only see a short distance ahead, but we can see plenty
+                there that needs to be done."
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-slate-900 p-6 flex flex-col items-center justify-center">
+      <h3 class="text-white text-2xl font-serif mb-7">Alan Turing</h3>
+      <div class="flex mb-7">
+        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
+          >Home</a
+        >
+        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
+          >Biography</a
+        >
+        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
+          >Legacy</a
+        >
+      </div>
+      <span class="w-full h-0.5 bg-gray-800 mb-7"></span>
+      <p class="text-gray-400 text-center font-sans text-sm font-extralight">
+        © Copyright 2023. All Rights Reserved by Romar Macaraeg
+      </p>
+    </footer>
+
     <script src="/src/js/menu.js"></script>
   </body>
 </html>
