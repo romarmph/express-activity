@@ -2,20 +2,6 @@
 
 
 :root {
-  --black: rgba(0,0,0,1);
-  --bunker:rgba(16, 17, 22, 1);
-  --vulcan: rgba(19,29,25,1);
-  --white-2: rgba(255,255,255,0.502);
-  --white: rgba(255,255,255,1);
-
-  --font-size-xs: 16px;
-  --font-size-s: 18px;
-  --font-size-m: 24px;
-  --font-size-l: 32px;
-  --font-size-xl: 36px;
-  --font-size-xxl: 48px;
-  --font-size-xxxl: 128px;
-
   --font-family-italiana: 'Italiana', serif;
   --font-family-roboto: 'Roboto', sans-serif;
 }

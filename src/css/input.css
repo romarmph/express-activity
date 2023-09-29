@@ -1,8 +1,18 @@
 @tailwind base;
 
 .body {
-  background-color: #0f172a;
+  @apply bg-gray-950;
 }
+
+.nav-item {
+  @apply text-gray-50000 text-4xl grow text-center flex justify-center items-center;
+  @apply hover:bg-gray-900
+}
+
+.selected {
+  @apply text-white;
+}
+
 
 @tailwind components;
 @tailwind utilities;
