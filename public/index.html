@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,23 +15,21 @@
     <title>Alan Turing - Home</title>
   </head>
   <body class="body static">
-    <!-- <div class="absolute top-7 left-7 cursor-pointer" id="menu_button">
-      <img src="/src/imgs/menu.svg" alt="menu-icon" />
-    </div> -->
-    <div
-      class="w-full h-screen bg-gray-950 flex justify-center items-stretch nav-menu"
-    >
-      <div
-        class="absolute top-7 left-7 cursor-pointer hover:bg-gray-900 p-2 rounded-sm"
-        id="close_button"
-      >
-        <img src="/src/imgs/close-button.svg" alt="menu-icon" />
-      </div>
-
-      <a href="#" class="nav-item home selected"> Home </a>
-      <a href="#" class="nav-item biography"> Biography </a>
-      <a href="#" class="nav-item legacy"> Legacy </a>
+    <div id="nav-icon" class="z-20">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+    <nav
+      class="w-0 fixed z-10 left-0 top-0 overflow-x-hidden h-screen bg-gray-950"
+      id="nav-menu"
+    >
+      <div class="w-full h-full flex justify-stretch items-stretch">
+        <a href="#" class="nav-item home selected"> Home </a>
+        <a href="#" class="nav-item biography"> Biography </a>
+        <a href="#" class="nav-item legacy"> Legacy </a>
+      </div>
+    </nav>
     <script src="/src/js/menu.js"></script>
   </body>
 </html>

@@ -5,13 +5,15 @@
 }
 
 .nav-item {
-  @apply text-gray-50000 text-4xl grow text-center flex justify-center items-center;
-  @apply hover:bg-gray-900
+  @apply text-gray-500 text-4xl grow text-center flex justify-center items-center;
+  @apply hover:bg-gray-900;
+  @apply font-sans font-light
 }
 
 .selected {
   @apply text-white;
 }
+
 
 
 @tailwind components;

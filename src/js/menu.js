@@ -1,10 +1,15 @@
-const menuBtn = document.querySelector("#menu_button");
-const closeBtn = document.querySelector("#close_button");
+const navMenu = document.querySelector("#nav-menu");
 
-menuBtn.addEventListener("click", () => {
-  console.log("click");
-});
+const navIcon = document.querySelector("#nav-icon");
 
-closeBtn.addEventListener("click", (event) => {
-  console.log(event);
+navIcon.addEventListener("click", () => {
+  navIcon.classList.toggle("open");
+
+  if (navMenu.classList.contains("w-0")) {
+    navMenu.classList.remove("w-0");
+    navMenu.classList.add("w-full");
+  } else {
+    navMenu.classList.remove("w-full");
+    navMenu.classList.add("w-0");
+  }
 });
