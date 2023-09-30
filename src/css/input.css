@@ -5,13 +5,29 @@
 }
 
 .nav-item {
-  @apply text-gray-500 text-4xl grow text-center flex justify-center items-center;
+  @apply flex items-center justify-center text-4xl text-center text-gray-500 grow;
   @apply hover:bg-gray-900;
   @apply font-serif font-light
 }
 
+.footer-nav-item {
+  @apply text-xl text-center text-white w-28 font-extralight;
+}
+
 .selected {
   @apply text-white;
+}
+
+.nav-item-container {
+  @apply flex items-stretch w-full h-full justify-stretch;
+}
+
+.content-header {
+  @apply mb-8 text-4xl text-gray-400 font-extralight;
+}
+
+.content {
+  @apply text-xl font-light leading-loose tracking-wide text-gray-500;
 }
 
 

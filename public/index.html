@@ -14,17 +14,17 @@
     />
     <title>Alan Turing - Home</title>
   </head>
-  <body class="body relative">
+  <body class="relative body">
     <div id="nav-icon" class="z-50">
       <span></span>
       <span></span>
       <span></span>
     </div>
     <nav
-      class="w-0 fixed z-30 left-0 top-0 overflow-x-hidden h-screen bg-gray-950"
+      class="fixed top-0 left-0 z-30 w-0 h-screen overflow-x-hidden bg-gray-950"
       id="nav-menu"
     >
-      <div class="w-full h-full flex justify-stretch items-stretch">
+      <div class="flex items-stretch w-full h-full justify-stretch">
         <a href="/" class="nav-item home selected"> Home </a>
         <a href="biography" class="nav-item biography"> Biography </a>
         <a href="legacy" class="nav-item legacy"> Legacy </a>
@@ -34,9 +34,9 @@
     <div class="flex items-stretch h-screen bg-slate-900">
       <div class="grow">
         <div class="relative w-full h-full">
-          <div class="absolute top-64 left-32 z-20">
-            <p class="text-white text-9xl font-serif">Alan</p>
-            <p class="text-white text-9xl font-serif ps-8">Turing</p>
+          <div class="absolute z-20 top-64 left-32">
+            <p class="font-serif text-white text-9xl">Alan</p>
+            <p class="font-serif text-white text-9xl ps-8">Turing</p>
           </div>
           <div class="absolute bottom-20 right-20">
             <img src="/src/imgs/circles.svg" alt="circls" />
@@ -47,32 +47,32 @@
         <img
           src="/src/imgs/alan-1.png"
           alt=""
-          class="w-full h-full object-cover"
+          class="object-cover w-full h-full"
         />
       </div>
     </div>
 
-    <div class="flex items-stretch h-screen">
+    <main class="flex items-stretch h-screen">
       <div class="shrink-0">
         <img
           src="/src/imgs/alan-2.png"
           alt=""
-          class="w-full h-full object-cover"
+          class="object-cover w-full h-full"
         />
       </div>
-      <div class="grow flex justify-center items-center">
+      <div class="flex items-center justify-center grow">
         <div class="p-36">
-          <h2 class="text-white font-serif text-7xl">Who is Alan Turing?</h2>
-          <p class="text-white font-sans text-2xl font-light mt-6">
+          <h2 class="font-serif text-gray-300 text-7xl">Who is Alan Turing?</h2>
+          <p class="mt-6 font-sans text-2xl font-light text-gray-400">
             Alan Turing was a pioneering mathematician, logician, cryptanalyst,
             and computer scientist. His groundbreaking work laid the foundation
             for modern computing and artificial intelligence. This website is
             dedicated to preserving the memory and celebrating the extraordinary
             life of this visionary thinker.
           </p>
-          <div class="qoutes flex items-center gap-8 mt-16">
+          <div class="flex items-center gap-8 mt-16 qoutes">
             <span class="w-0.5 bg-white h-24"></span>
-            <p class="text-white font-sans text-3xl font-extralight">
+            <p class="font-sans text-3xl text-gray-600 font-extralight">
               <i>
                 "We can only see a short distance ahead, but we can see plenty
                 there that needs to be done."
@@ -81,23 +81,17 @@
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
-    <footer class="bg-slate-900 p-6 flex flex-col items-center justify-center">
-      <h3 class="text-white text-2xl font-serif mb-7">Alan Turing</h3>
+    <footer class="flex flex-col items-center justify-center p-6 bg-slate-900">
+      <h3 class="font-serif text-2xl text-white mb-7">Alan Turing</h3>
       <div class="flex mb-7">
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Home</a
-        >
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Biography</a
-        >
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Legacy</a
-        >
+        <a class="footer-nav-item" href="/">Home</a>
+        <a class="footer-nav-item" href="/biograpy">Biography</a>
+        <a class="footer-nav-item" href="/legacy">Legacy</a>
       </div>
       <span class="w-full h-0.5 bg-gray-800 mb-7"></span>
-      <p class="text-gray-400 text-center font-sans text-sm font-extralight">
+      <p class="font-sans text-sm text-center text-gray-400 font-extralight">
         © Copyright 2023. All Rights Reserved by Romar Macaraeg
       </p>
     </footer>

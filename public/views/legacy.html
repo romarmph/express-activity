@@ -14,38 +14,154 @@
     />
     <title>Legacy</title>
   </head>
-  <body class="body relative">
+  <body class="relative body">
     <div id="nav-icon" class="z-50">
       <span></span>
       <span></span>
       <span></span>
     </div>
     <nav
-      class="w-0 fixed z-30 left-0 top-0 overflow-x-hidden h-screen bg-gray-950"
+      class="fixed top-0 left-0 z-30 w-0 h-screen overflow-x-hidden bg-gray-950"
       id="nav-menu"
     >
-      <div class="w-full h-full flex justify-stretch items-stretch">
-        <a href="/" class="nav-item home"> Home </a>
+      <div class="flex items-stretch w-full h-full justify-stretch">
+        <a href="/" class="nav-item home selected"> Home </a>
         <a href="biography" class="nav-item biography"> Biography </a>
-        <a href="legacy" class="nav-item legacy selected"> Legacy </a>
+        <a href="legacy" class="nav-item legacy"> Legacy </a>
       </div>
     </nav>
 
-    <footer class="bg-slate-900 p-6 flex flex-col items-center justify-center">
-      <h3 class="text-white text-2xl font-serif mb-7">Alan Turing</h3>
+    <div class="" id="hero">
+      <div style="height: 50vh; max-height: 600px" class="relative">
+        <div
+          class="absolute z-10 flex items-center justify-center w-full h-full"
+        >
+          <h1 class="font-serif text-gray-300 text-8xl">Alan Turing</h1>
+        </div>
+        <img
+          src="/src/imgs/hero-pattern-bg.png"
+          alt="geometric-pattern"
+          class="object-cover w-full h-full"
+        />
+      </div>
+    </div>
+    <main class="flex flex-col items-center px-6 py-8">
+      <h2 class="mb-16 font-serif text-6xl text-center text-gray-300">
+        Legacy
+      </h2>
+      <div class="w-full max-w-screen-lg">
+        <div class="mb-11">
+          <h3 class="content-header">
+            Alan Turing: A Genius Ahead of His Time
+          </h3>
+          <img
+            src="/src/imgs/alan-4.png"
+            alt="alan-turing"
+            class="object-cover mb-8"
+          />
+          <p class="content">
+            Alan Turing's impact on the world extends far beyond his lifetime.
+            His pioneering work in the fields of mathematics, computer science,
+            and cryptography continues to influence and shape our modern society
+            in profound ways.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">Pioneering the Digital Age</h3>
+          <p class="content">
+            Alan Turing's concept of the Turing machine laid the theoretical
+            foundation for modern computing. Today, we owe much of our digital
+            landscape to his visionary ideas. The devices we carry in our
+            pockets, the software that powers our lives, and the algorithms that
+            drive our technology all bear the imprint of Turing's genius.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">The Turing Test: A Benchmark for AIt</h3>
+          <p class="content">
+            In 1950, Turing proposed the now-famous Turing Test, a criterion for
+            assessing a machine's ability to exhibit intelligent behavior
+            indistinguishable from that of a human. This concept remains central
+            to the field of artificial intelligence, guiding researchers and
+            developers in their pursuit of machines that can think, learn, and
+            communicate like humans.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">Cryptanalysis and National Security</h3>
+          <p class="content">
+            Turing's contributions during World War II were nothing short of
+            heroic. By breaking the German Enigma code, he provided invaluable
+            intelligence that played a crucial role in the Allied victory. His
+            work at Bletchley Park not only shortened the war but also
+            revolutionized the field of cryptanalysis, paving the way for modern
+            encryption techniques.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">Advocacy for LGBTQ+ Rights</h3>
+          <p class="content">
+            Beyond his scientific achievements, Alan Turing's personal struggles
+            and advocacy for LGBTQ+ rights have left an indelible mark on the
+            fight for equality. His courage in a time of prejudice and
+            discrimination continues to inspire and empower marginalized
+            communities around the world.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">The Turing Award: A Prestigious Honor</h3>
+          <p class="content">
+            In recognition of his monumental contributions to computer science,
+            the Association for Computing Machinery (ACM) established the Turing
+            Award in 1966. Often referred to as the "Nobel Prize of Computing,"
+            this award celebrates individuals who have made lasting and
+            significant contributions to the computing community.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">
+            The Turing Machine: A Symbol of Infinite Possibilities
+          </h3>
+          <p class="content">
+            The Turing machine, conceived as a thought experiment, has become an
+            enduring symbol of computation and the limitless potential of
+            technology. It serves as a reminder that imagination and intellect
+            can transcend the physical limitations of machines.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">
+            Alan Turing Today: A Continuing Influence
+          </h3>
+          <p class="content">
+            In today's world, Alan Turing's legacy is omnipresent. From the
+            smartphones we rely on to the algorithms that power our online
+            experiences, his fingerprints are everywhere. As we navigate an
+            increasingly digital landscape, we do so on foundations he helped
+            lay.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">A Call to Remember</h3>
+          <p class="content">
+            This website stands as a tribute to Alan Turing, a man whose
+            brilliance and courage changed the course of history. It is our duty
+            to ensure that his contributions are celebrated, his struggles
+            acknowledged, and his legacy forever remembered.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="flex flex-col items-center justify-center p-6 bg-slate-900">
+      <h3 class="font-serif text-2xl text-white mb-7">Alan Turing</h3>
       <div class="flex mb-7">
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Home</a
-        >
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Biography</a
-        >
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Legacy</a
-        >
+        <a class="footer-nav-item" href="/">Home</a>
+        <a class="footer-nav-item" href="/biograpy">Biography</a>
+        <a class="footer-nav-item" href="/legacy">Legacy</a>
       </div>
       <span class="w-full h-0.5 bg-gray-800 mb-7"></span>
-      <p class="text-gray-400 text-center font-sans text-sm font-extralight">
+      <p class="font-sans text-sm text-center text-gray-400 font-extralight">
         © Copyright 2023. All Rights Reserved by Romar Macaraeg
       </p>
     </footer>

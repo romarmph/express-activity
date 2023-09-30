@@ -14,38 +14,121 @@
     />
     <title>Biography</title>
   </head>
-  <body class="body relative">
+  <body class="relative body">
     <div id="nav-icon" class="z-50">
       <span></span>
       <span></span>
       <span></span>
     </div>
     <nav
-      class="w-0 fixed z-30 left-0 top-0 overflow-x-hidden h-screen bg-gray-950"
+      class="fixed top-0 left-0 z-30 w-0 h-screen overflow-x-hidden bg-gray-950"
       id="nav-menu"
     >
-      <div class="w-full h-full flex justify-stretch items-stretch">
-        <a href="/" class="nav-item home"> Home </a>
-        <a href="biography" class="nav-item biography selected"> Biography </a>
+      <div class="flex items-stretch w-full h-full justify-stretch">
+        <a href="/" class="nav-item home selected"> Home </a>
+        <a href="biography" class="nav-item biography"> Biography </a>
         <a href="legacy" class="nav-item legacy"> Legacy </a>
       </div>
     </nav>
 
-    <footer class="bg-slate-900 p-6 flex flex-col items-center justify-center">
-      <h3 class="text-white text-2xl font-serif mb-7">Alan Turing</h3>
+    <div class="" id="hero">
+      <div style="height: 50vh; max-height: 600px" class="relative">
+        <div
+          class="absolute z-10 flex items-center justify-center w-full h-full"
+        >
+          <h1 class="font-serif text-gray-300 text-8xl">Alan Turing</h1>
+        </div>
+        <img
+          src="/src/imgs/hero-pattern-bg.png"
+          alt="geometric-pattern"
+          class="object-cover w-full h-full"
+        />
+      </div>
+    </div>
+    <main class="flex flex-col items-center px-6 py-8">
+      <h2 class="mb-16 font-serif text-6xl text-center text-gray-300">
+        Biography
+      </h2>
+      <div class="w-full max-w-screen-lg">
+        <div class="mb-11">
+          <h3 class="content-header">
+            Alan Turing: A Genius Ahead of His Time
+          </h3>
+          <img
+            src="/src/imgs/alan-3.png"
+            alt="alan-turing"
+            class="object-cover mb-8"
+          />
+          <p class="content">
+            Alan Mathison Turing, born on June 23, 1912, in Maida Vale, London,
+            was a mathematical prodigy whose intellectual prowess would
+            revolutiotnize the world of computing and cryptography.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">Early Years and Education</h3>
+          <p class="content">
+            From an early age, Turing displayed an exceptional aptitude for
+            mathematics. He attended the Sherborne School, where his talents in
+            the subject were readily recognized. It wasn't long before he caught
+            the attention of his teachers, who were astounded by his ability to
+            solve complex mathematical problems with ease. <br />
+            <br />
+            Turing's academic journey continued at King's College, University of
+            Cambridge, where he delved into the study of mathematics and
+            theoretical physics. It was during this time that he began to
+            formulate the fundamental concepts that would later shape the field
+            of computer science.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">
+            The Turing Machine: A Conceptual Breakthrough
+          </h3>
+          <p class="content">
+            In 1936, Alan Turing introduced the concept of the Turing machine, a
+            theoretical device that laid the groundwork for the modern computer.
+            This conceptual breakthrough demonstrated that a machine could
+            perform any computation that could be represented algorithmically.
+            Today, the Turing machine is regarded as a fundamental model for
+            understanding the capabilities and limitations of computation.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">War Hero: Breaking the Enigma Codet</h3>
+          <p class="content">
+            During World War II, Turing's talents were enlisted by the British
+            government to help break the German Enigma code. Alongside a team of
+            brilliant cryptanalysts at Bletchley Park, Turing played a pivotal
+            role in deciphering encrypted messages, providing invaluable
+            intelligence to the Allied forces. His contributions were
+            instrumental in shortening the war and saving countless lives.
+          </p>
+        </div>
+        <div class="mb-11">
+          <h3 class="content-header">Post-War Contributions and Tragic End</h3>
+          <p class="content">
+            Following the war, Turing continued to make significant strides in
+            the field of computing. He developed the Automatic Computing Engine
+            (ACE), an early electronic stored-program computer. However, his
+            remarkable career was tragically cut short. In 1952, Turing's
+            homosexuality led to a criminal conviction, and he chose to undergo
+            chemical castration rather than face imprisonment. He passed away on
+            June 7, 1954, at the age of 41.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="flex flex-col items-center justify-center p-6 bg-slate-900">
+      <h3 class="font-serif text-2xl text-white mb-7">Alan Turing</h3>
       <div class="flex mb-7">
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Home</a
-        >
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Biography</a
-        >
-        <a class="w-28 text-center text-xl text-white font-extralight" href="#"
-          >Legacy</a
-        >
+        <a class="footer-nav-item" href="#">Home</a>
+        <a class="footer-nav-item" href="#">Biography</a>
+        <a class="footer-nav-item" href="#">Legacy</a>
       </div>
       <span class="w-full h-0.5 bg-gray-800 mb-7"></span>
-      <p class="text-gray-400 text-center font-sans text-sm font-extralight">
+      <p class="font-sans text-sm text-center text-gray-400 font-extralight">
         © Copyright 2023. All Rights Reserved by Romar Macaraeg
       </p>
     </footer>
